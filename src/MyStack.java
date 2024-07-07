@@ -25,15 +25,19 @@ public class MyStack implements Cloneable{
         list.add(o);
     }
 
-    @Override /** Переопределяет метод toString класса Object */
+    @Override
+    /* Переопределяет метод toString класса Object */
     public String toString() {
         return "стек: " + list.toString();
     }
     public Object clone() {
         try {
-            return super.clone();
+            MyStack cloneStack = (MyStack) super.clone();
+            cloneStack.list = (ArrayList<Object>) this.list.clone();
+            return cloneStack;
         }
         catch (CloneNotSupportedException ex) {
+            System.out.println("Ошибка CloneNotSupported...");
             return null;
         }
     }

@@ -62,6 +62,6 @@ class Circle extends GeometricObject {
 
     @Override
     public String toString() {
-        return "[круг] радиус = " + radius;
+        return "[круг] радиус = " + radius + " Площадь " + this.getArea();
     }
 }

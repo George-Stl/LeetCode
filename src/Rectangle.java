@@ -42,6 +42,7 @@ class Rectangle extends GeometricObject {
 
     @Override
     public String toString() {
-        return "[прямоугольник] ширина: " + width + " высота: " + height;
+        return "[прямоугольник] ширина: " + width + " высота: " + height
+                + " Площадь: " + this.getArea();
     }
 }

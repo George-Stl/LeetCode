@@ -27,4 +27,9 @@ public class Square extends GeometricObject
     public void howToColor(){
         System.out.println("Раскрасьте все четыре стороны");
     }
+    @Override
+    public String toString(){
+        return "Квадрат, сторона " + this.getSide() +
+        " Площадь " + this.getArea() + "\n";
+    }
 }

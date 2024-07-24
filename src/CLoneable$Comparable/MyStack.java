@@ -1,3 +1,5 @@
+package CLoneable$Comparable;
+
 import java.util.ArrayList;
 
 public class MyStack implements Cloneable{

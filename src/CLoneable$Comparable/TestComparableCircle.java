@@ -1,4 +1,8 @@
-import java.sql.SQLOutput;
+package CLoneable$Comparable;
+
+import Figures.ComparableCircle;
+import Figures.Rectangle;
+import Figures.GeometricObject;
 
 public class TestComparableCircle {
     public static void main(String[] args) {

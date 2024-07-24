@@ -1,4 +1,6 @@
-class Rectangle extends GeometricObject {
+package Figures;
+
+public class Rectangle extends GeometricObject implements Comparable<Rectangle>{
     private double width;
     private double height;
 
@@ -39,7 +41,12 @@ class Rectangle extends GeometricObject {
     public double getPerimeter() {
         return 2 * (width + height);
     }
-
+    @Override
+    public int compareTo(Rectangle r){
+        if (getArea() < r.getArea()) return -1;
+        else if(getArea() > r.getArea()) return 1;
+        else return 0;
+    }
     @Override
     public String toString() {
         return "[прямоугольник] ширина: " + width + " высота: " + height

@@ -1,4 +1,6 @@
-abstract class GeometricObject implements Comparable<GeometricObject> {
+package Figures;
+
+public abstract class GeometricObject implements Comparable<GeometricObject> {
     protected String color;
     protected double weight;
 

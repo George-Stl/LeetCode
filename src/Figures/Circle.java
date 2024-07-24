@@ -1,5 +1,7 @@
-class Circle extends GeometricObject {
-    protected double radius;
+package Figures;
+
+public class Circle extends GeometricObject{
+    public double radius;
 
     /**
      * Заданный по умолчанию конструктор
@@ -39,14 +41,14 @@ class Circle extends GeometricObject {
     }
 
     /**
-     * Реализует абстрактный метод getArea класса GeometricObject
+     * Реализует абстрактный метод getArea класса Figures.GeometricObject
      */
     public double getArea() {
         return radius * radius * Math.PI;
     }
 
     /**
-     * Реализует абстрактный метод getPerimeter класса GeometricObject
+     * Реализует абстрактный метод getPerimeter класса Figures.GeometricObject
      */
     public double getPerimeter() {
         return 2 * radius * Math.PI;
@@ -59,6 +61,7 @@ class Circle extends GeometricObject {
     public boolean equals(Object circle) {
         return this.radius == ((Circle) circle).getRadius();
     }
+
 
     @Override
     public String toString() {

@@ -1,3 +1,9 @@
+package CLoneable$Comparable;
+
+import Figures.Circle;
+import Figures.Rectangle;
+import Figures.Square;
+
 public class TestSquareComparable {
     public static void main(String[] args) {
         GeometricObject[] objects = {new Square(2),

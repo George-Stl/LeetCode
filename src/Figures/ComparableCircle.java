@@ -1,8 +1,10 @@
-public class ComparableCircle extends Circle{
-    ComparableCircle(){
+package Figures;
+
+public class ComparableCircle extends Circle {
+    public ComparableCircle(){
         super(1, "белый", 1.0);
     }
-    ComparableCircle(double radius){
+    public ComparableCircle(double radius){
         super(radius, "синий", 1.0);
     }
 

@@ -1,5 +1,7 @@
+package Figures;
+
 public class Square extends GeometricObject
-        implements Colorable{
+        implements Colorable {
     private double side;
     Square(){
         super("оранжевый", 1.0);
@@ -29,7 +31,7 @@ public class Square extends GeometricObject
     }
     @Override
     public String toString(){
-        return "Квадрат, сторона " + this.getSide() +
-        " Площадь " + this.getArea() + "\n";
+        return "[квадрат] сторона = " + this.getSide() +
+        " Площадь: " + this.getArea();
     }
 }

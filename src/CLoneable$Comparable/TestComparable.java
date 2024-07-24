@@ -1,3 +1,8 @@
+package CLoneable$Comparable;
+import Figures.Circle;
+import Figures.Rectangle;
+import Figures.GeometricObject;
+
 public class TestComparable {
     public static void main(String[] args) {
         // Создать два сравнимых круга

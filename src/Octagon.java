@@ -1,3 +1,6 @@
+
+import Figures.GeometricObject;
+
 public class Octagon extends GeometricObject implements Comparable<GeometricObject>, Cloneable {
 
     private double side;

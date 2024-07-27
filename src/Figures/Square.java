@@ -3,11 +3,11 @@ package Figures;
 public class Square extends GeometricObject
         implements Colorable {
     private double side;
-    Square(){
+    public Square(){
         super("оранжевый", 1.0);
         this.side = 0;
     }
-    Square(double side){
+    public Square(double side){
         super("красный", 1.5);
         this.side = side;
     }

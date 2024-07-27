@@ -1,8 +1,6 @@
 package CLoneable$Comparable;
 
-import Figures.Circle;
-import Figures.Rectangle;
-import Figures.Square;
+import Figures.*;
 
 public class TestSquareComparable {
     public static void main(String[] args) {

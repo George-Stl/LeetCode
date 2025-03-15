@@ -1,2 +1,2 @@
 # LeetCode v2
-* updated LettCode for udpate check in bot scrapper version bot scrap
+* updated LeetCode for udpate check in bot scrapper version bot scrap

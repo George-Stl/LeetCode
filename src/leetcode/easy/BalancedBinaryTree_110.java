@@ -16,10 +16,11 @@ public class BalancedBinaryTree_110 {
             return true;
         }
         if (root.left == null || root.right == null)
-        return step < (short) 2 && isBalanced(root.left, step) && isBalanced(root.right, step);
+            return step < (short) 2 && isBalanced(root.left, step) && isBalanced(root.right, step);
+        return false;
     }
 
     private boolean isBalanced(TreeNode root, Short step) {
-
+        return false; //TODO
     }
 }
